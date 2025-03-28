@@ -119,8 +119,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (38,	'gmt_offset',	'0',	'on'),
 (39,	'default_email_category',	'1',	'on'),
 (40,	'recently_edited',	'',	'off'),
-(41,	'template',	'twentytwentyfive',	'on'),
-(42,	'stylesheet',	'twentytwentyfive',	'on'),
+(41,	'template',	'twentytwentyfive',	'off'),
+(42,	'stylesheet',	'twentytwentyfive',	'off'),
 (43,	'comment_registration',	'0',	'on'),
 (44,	'html_type',	'text/html',	'on'),
 (45,	'use_trackback',	'0',	'on'),
@@ -215,8 +215,8 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
-(1,	2,	'_wp_page_template',	'default'),
-(2,	3,	'_wp_page_template',	'default');
+(1,	2,	'_wp_page_template',	'flowershoplite'),
+(2,	3,	'_wp_page_template',	'flowershoplite');
 
 DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE `wp_posts` (
